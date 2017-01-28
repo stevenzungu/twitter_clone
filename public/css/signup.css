@@ -47,12 +47,21 @@ table {
 	border-spacing: 0;
 }
 
-/*
+/*///////////////
 End Reset
-*/
+///////////////*/
 
 
+/*////////////////
+BODY
+/////////////////*/
 
+body {
+  background: #fff;
+  color: #292f33;
+  font-size: 14px;
+  line-height: 18px;
+}
 
 
 .signup_header {
