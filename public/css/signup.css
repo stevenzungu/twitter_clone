@@ -91,4 +91,5 @@ HEADER
   background: -moz-linear-gradient(right, #59adeb, #35cd95); /* For Firefox 3.6 to 15 */
   background: linear-gradient(to right, #59adeb , #35cd95); /* Standard syntax */
   color: red;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
