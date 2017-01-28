@@ -47,9 +47,9 @@ table {
 	border-spacing: 0;
 }
 
-/*///////////////
-End Reset
-///////////////*/
+/*////////////////
+END RESET
+////////////////*/
 
 
 /*////////////////
@@ -61,11 +61,30 @@ body {
   color: #292f33;
   font-size: 14px;
   line-height: 18px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+/*////////////////////
+END BODY
+////////////////////*/
+
+
+/*////////////////////
+CONTAINER
+////////////////////*/
+
+.container {
+  width: 1200px;
+
+}
+
+/*////////////////////
+HEADER
+/////////////////////*/
 
 .signup_header {
   height: 46px;
+  width: 100%;
   background: #59adeb; /* For browsers that do not support gradients */
   background: -webkit-linear-gradient(left, #59adeb , #35cd95); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(right, #59adeb, #35cd95); /* For Opera 11.1 to 12.0 */
