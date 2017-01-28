@@ -93,3 +93,28 @@ HEADER
   color: red;
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+
+/*///////////////////////
+END HEADER
+///////////////////////*/
+
+
+
+/*///////////////////////
+FORM
+///////////////////////*/
+
+input[type=text] {
+  display: block;
+  
+}
+
+input[type=email] {
+  display: block;
+
+}
+
+input[type=password] {
+  display: block;
+
+}
