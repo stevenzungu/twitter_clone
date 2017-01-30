@@ -3,21 +3,34 @@
   <head>
     <meta charset="utf-8">
     <title>Twitterish Signup Page</title>
-    <link rel="stylesheet" href="css/signup.css">
+    <link rel="stylesheet" href="signup.css">
+    <script src="https://use.fontawesome.com/fc3114d428.js"></script>
   </head>
   <body>
     <header class="signup_header">
-      <h3>Language: English</h3>
-      <h3>Have an account? Log inn</h3>
+    	<div class="header_outer_div">
+    		<span class="fa fa-twitter"></span>
+    		<div class="links_div">
+    			<ul>
+      				<li><a href="#"><small>Language:</small> English</a></li>
+      				<li><a href="#"><small>Have an account?</small> Log in</a></li>
+      			</ul>
+      		</div>
+      	</div>
     </header>
     <main>
-      <h1>Join Twitter today.</h1>
-      <form action="/login" menthod="GET">
-        <input type="text" name="name" placeholder="Full name">
-        <input type="email" name="email" value="email" placeholder="Email">
-        <input type="password" name="password" value="password">
-        <button type="submit">Sign up</button>
-      </form>
+    	<div class="form_div">
+      		<h1>Join Twitter today.</h1>
+      		<form action="/login" menthod="post">
+        		<input type="text" name="username" placeholder="Full name">
+       		 	<input type="email" name="email" placeholder="Phone or Email">
+        		<input type="password" name="password" placeholder="Password">
+        		<input type="checkbox" name="checkbox" checked> <span class="checkbox_span">Tailor Twitter based on my recent website visits. <a class="checkbox_link" href="#">Learn more.</a></span>
+        		<button type="submit" name="submit">Sign up</button>
+        		<p class="terms">By signing up, you agree to the <a href"#">Terms of Service</a> and <a href="#">Privacy Policy</a>, including <a href="#">Cookie Use</a>. Others will be able to find you by email or phone number when provided.</p>
+        		<a class="advanced_options" href="#">Advanced options</a>
+      		</form>
+      	</div>
     </main>
 
   </body>
